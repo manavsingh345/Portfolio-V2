@@ -9,28 +9,10 @@ export default function manifest(): MetadataRoute.Manifest {
     description: SITE_INFO.description,
     icons: [
       {
-        src: "/images/brand/favicon.svg",
-        type: "image/svg+xml",
-        sizes: "any",
+        src: "/images/brand/my.jpg",
+        type: "image/jpeg",
+        sizes: "200x200",
         purpose: "any",
-      },
-      {
-        src: "/images/brand/apple-touch-icon.png",
-        type: "image/png",
-        sizes: "192x192",
-        purpose: "any",
-      },
-      {
-        src: "/images/brand/apple-touch-icon.png",
-        type: "image/png",
-        sizes: "512x512",
-        purpose: "any",
-      },
-      {
-        src: "/images/brand/apple-touch-icon.png",
-        type: "image/png",
-        sizes: "512x512",
-        purpose: "maskable",
       },
     ],
     id: "/?utm_source=pwa",
