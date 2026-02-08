@@ -2,23 +2,23 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "description": "A minimal, pixel-perfect developer portfolio, blog and products.",
-  "homepage": "https://abdulrehmanwaseem.me",
+  "homepage": "https://manavv.vercel.app",
   "license": "MIT",
   "author": {
     "name": "Manav Singh",
-    "email": "contact@abdulrehmanwaseem.me",
-    "url": "https://github.com/abdulrehmanwaseem"
+    "email": "manavsingh0607@gmail.com",
+    "url": "https://github.com/manavsingh345"
   },
   "contributors": [
     {
       "name": "Manav Singh",
-      "email": "contact@abdulrehmanwaseem.me",
-      "url": "https://github.com/abdulrehmanwaseem"
+      "email": "manavsingh0607@gmail.com",
+      "url": "https://github.com/manavsingh345"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abdulrehmanwaseem/My-Portfolio.git"
+    "url": "git+https://github.com/manavsingh345/Portfolio-V2.git"
   },
   "scripts": {
     "dev": "next dev -p 1408",
