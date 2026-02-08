@@ -30,9 +30,9 @@ export const MAIN_NAV: NavItem[] = [
 ];
 
 export const GITHUB_USERNAME = "manavsingh345";
-export const SOURCE_CODE_GITHUB_REPO = "manavsingh345/Portfolio-V1";
+export const SOURCE_CODE_GITHUB_REPO = "manavsingh345/Portfolio-V2";
 export const SOURCE_CODE_GITHUB_URL =
-  "https://github.com/manavsingh345/Portfolio-V1";
+  "https://github.com/manavsingh345/Portfolio-V2";
 
 export const UTM_PARAMS = {
   utm_source: "https://manavv.vercel.app",
