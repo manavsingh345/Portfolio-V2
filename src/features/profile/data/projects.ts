@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
     id: "graphidraw",
     title: "GraphiDraw",
     period: { start: "01.2025" },
-    link: "https://github.com/manavsingh345/GraphiDraw",
+    link: "https://graphidraw.vercel.app",
     skills: [
       "Next.js",
       "React",

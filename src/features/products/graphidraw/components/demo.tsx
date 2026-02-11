@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export function GraphiDrawDemo() {
   return (
     <section id="demo" className="border-y bg-muted/30 py-20">
@@ -14,14 +12,18 @@ export function GraphiDrawDemo() {
           </p>
 
           <div className="relative overflow-hidden rounded-xl border bg-background shadow-2xl">
-            <Image
-              src="/images/products/Graphidraw.png"
-              alt="GraphiDraw canvas preview"
-              width={1200}
-              height={800}
+            <video
               className="h-auto w-full"
-              priority
-            />
+              controls
+              preload="metadata"
+              playsInline
+            >
+              <source
+                src="https://res.cloudinary.com/dmtktd1wr/video/upload/v1770823996/Untitled_video_-_Made_with_Clipchamp_iyxbb2.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>

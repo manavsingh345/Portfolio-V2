@@ -38,7 +38,13 @@ export function GraphiDrawHero() {
             </Link>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <Link href="/#experience">View Experience</Link>
+            <Link
+              href="https://graphidraw.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Live
+            </Link>
           </Button>
         </div>
 

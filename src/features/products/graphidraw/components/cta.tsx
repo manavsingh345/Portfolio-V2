@@ -1,4 +1,4 @@
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
@@ -28,9 +28,12 @@ export function GraphiDrawCTA() {
               </Button>
 
               <Button size="lg" variant="outline" asChild>
-                <Link href="/#experience">
-                  View Experience
-                  <Mail className="ml-2 h-4 w-4" />
+                <Link
+                  href="https://graphidraw.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Live
                 </Link>
               </Button>
             </div>
