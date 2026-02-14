@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
     id: "brainbox-ai-visual-knowledge-base",
     title: "BrainBox - AI Visual and Knowledge Base",
     period: { start: "02.2025" },
-    link: "https://github.com/manavsingh345/BrainBox",
+    link: "https://brainboxx.vercel.app/",
     skills: [
       "React",
       "TypeScript",
