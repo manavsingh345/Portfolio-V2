@@ -56,7 +56,7 @@ export const PROJECTS: Project[] = [
     id: "varsity-stock-trading-platform",
     title: "Varsity - Stock Trading Platform",
     period: { start: "03.2025" },
-    link: "https://github.com/manavsingh345/Varsity",
+    link: "https://varsity-seven.vercel.app/",
     skills: ["JavaScript", "React", "Node.js", "Express.js", "MongoDB"],
     description: `A modern and full-featured trading platform built with the MERN stack + Razorpay integration. This project replicates a complete online stock trading experience, including user authentication, dashboard analytics, live stock prices, order management, wallet system, and a support ticket system.
 
