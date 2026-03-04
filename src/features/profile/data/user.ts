@@ -32,7 +32,7 @@ export const USER: User = {
 - Solved **600+ Data Structures & Algorithms** problems on **LeetCode** and **200+ problems** on **GeeksforGeeks**, strengthening problem-solving skills and deep understanding of algorithms and system design.
 - Enjoy tackling complex challenges, writing clean code, and continuously learning to improve both performance and scalability.
 `,
-  avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFbSmn4GGfnAg/profile-displayphoto-scale_200_200/B4DZl3Q9J4JIAg-/0/1758642562179?e=1772064000&v=beta&t=WTCZzYlhtlFgRp79YTsEgTSML8Mk9drD1mueBNQsn_k",
+  avatar: "/images/brand/my.jpg",
   ogImage: "/images/og-image-light.png",
   namePronunciationUrl: "",
   keywords: [
@@ -55,3 +55,4 @@ export const USER: User = {
   dateCreated: "2025-10-12",
   secondPhoneNumber: ""
 };
+
