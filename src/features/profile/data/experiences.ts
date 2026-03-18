@@ -47,7 +47,7 @@ export const EXPERIENCES: Experience[] = [
         },
         icon: "education",
         description: `- Bachelor of Computer Science and Engineering
-- CGPA 7.68/10
+- CGPA 7.71/10
 - Major in Computer Science
 - Minor in Full Stack Web Development
 - Minor in UI/UX`,
