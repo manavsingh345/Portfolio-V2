@@ -1,5 +1,7 @@
 import "@/styles/globals.css";
 
+import "@/styles/globals.css";
+
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import type { WebSite, WithContext } from "schema-dts";
@@ -8,6 +10,8 @@ import { Providers } from "@/components/providers";
 import { META_THEME_COLORS, SITE_INFO } from "@/config/site";
 import { USER } from "@/features/profile/data/user";
 import { fontMono, fontSans } from "@/lib/fonts";
+import { Oneko } from "@/registry/oneko/oneko";
+
 
 function getWebSiteJsonLd(): WithContext<WebSite> {
   return {
@@ -129,6 +133,7 @@ export default function RootLayout({
 
       <body suppressHydrationWarning>
         <Providers>{children}</Providers>
+        <Oneko />
       </body>
     </html>
   );

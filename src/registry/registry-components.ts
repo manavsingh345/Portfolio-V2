@@ -150,4 +150,19 @@ export const components: Registry["items"] = [
     ],
     docs: "https://chanhdai.com/components/testimonials-marquee",
   },
+  {
+    name: "oneko",
+    type: "registry:component",
+    description: "A pixel-art cat that follows the user's cursor.",
+    title: "Oneko Cursor Cat",
+    author: "adryd325 ported to React",
+    dependencies: [],
+    registryDependencies: [],
+    files: [
+      {
+        path: "oneko/oneko.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
 ];
